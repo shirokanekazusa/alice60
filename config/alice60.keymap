@@ -34,11 +34,11 @@
 
         layer_1 {
             bindings = <
-&bootloader     &trans        &trans    &trans        &trans      &trans      &trans  &trans  &trans  &trans  &trans  &kp MINUS  &trans
-&bt BT_CLR      &bt BT_SEL 0  &kp UP    &bt BT_SEL 1  &bt BT_PRV  &bt BT_NXT  &trans  &trans  &trans  &trans  &trans  &trans     &trans
-&bt BT_CLR_ALL  &kp LEFT      &kp DOWN  &kp RIGHT     &trans      &trans      &trans  &trans  &trans  &trans  &trans             &trans
-&trans          &trans        &trans    &trans        &trans      &trans      &trans  &trans  &trans  &trans  &trans             &trans
-&trans          &trans                  &trans        &trans                  &trans          &trans                  &trans     &trans
+&bootloader     &trans        &trans    &trans        &trans  &trans      &trans  &trans  &trans  &trans  &trans  &kp MINUS  &trans
+&bt BT_CLR      &bt BT_SEL 0  &kp UP    &bt BT_SEL 1  &trans  &bt BT_NXT  &trans  &trans  &trans  &trans  &trans  &trans     &trans
+&bt BT_CLR_ALL  &kp LEFT      &kp DOWN  &kp RIGHT     &trans  &bt BT_PRV  &trans  &trans  &trans  &trans  &trans             &trans
+&trans          &trans        &trans    &trans        &trans  &trans      &trans  &trans  &trans  &trans  &trans             &sys_reset
+&trans          &trans                  &trans        &trans              &trans          &trans                  &trans     &trans
             >;
         };
     };
