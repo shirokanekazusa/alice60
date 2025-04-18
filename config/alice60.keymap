@@ -41,5 +41,15 @@
 &trans          &trans                  &trans        &trans              &trans          &trans                  &trans     &trans
             >;
         };
+
+        layer_2 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans          &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans          &trans
+&trans  &trans          &trans  &trans          &trans          &trans                  &trans  &trans
+            >;
+        };
     };
 };
