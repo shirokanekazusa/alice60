@@ -41,15 +41,5 @@
 &kp LCTRL       &trans                  &trans        &trans                      &kp LEFT_WIN          &trans                              &kp F11     &kp F12
             >;
         };
-
-        layer_2 {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans          &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans          &trans  &trans          &trans          &trans                  &trans  &trans
-            >;
-        };
     };
 };
