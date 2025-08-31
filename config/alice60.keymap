@@ -39,7 +39,27 @@
 &bt BT_CLR      &bt BT_SEL 1  &kp UP    &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &rgb_ug RGB_TOG  &trans           &rgb_ug RGB_SPD  &rgb_ug RGB_SPI  &trans        &trans      &trans
 &bt BT_CLR_ALL  &kp LEFT      &kp DOWN  &kp RIGHT     &bt BT_PRV    &bt BT_NXT    &rgb_ug RGB_HUD  &rgb_ug RGB_HUI  &rgb_ug RGB_EFR  &rgb_ug RGB_EFF  &kp SEMI                  &trans
 &kp LEFT_SHIFT  &trans        &trans    &trans        &trans        &trans        &rgb_ug RGB_BRD  &rgb_ug RGB_BRI  &trans           &kp C_VOL_DN     &kp C_VOL_UP  &kp C_MUTE  &kp DELETE
-&kp LCTRL       &trans                  &trans        &trans                      &kp LEFT_WIN                      &trans                                          &kp F11     &kp F12
+&kp LCTRL       &trans                  &trans        &trans                      &kp LEFT_WIN                      &mo 2                                           &kp F11     &kp F12
+            >;
+        };
+
+        layer_2 {
+            bindings = <
+&bootloader  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans       &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans       &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans          &trans
+&trans       &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans       &trans          &trans  &trans          &trans          &trans                  &trans  &trans
+            >;
+        };
+
+        layer_3 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans          &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans          &trans  &trans          &trans          &trans                  &trans  &trans
             >;
         };
     };
